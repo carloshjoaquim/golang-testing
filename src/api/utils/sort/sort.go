@@ -24,7 +24,7 @@ func GetElements(n int) []int {
 	result := make([]int, n)
 	j := 0
 
-	for i := n -1; i > 0; i-- {
+	for i := n - 1; i > 0; i-- {
 		result[j] = i
 		j++
 	}
